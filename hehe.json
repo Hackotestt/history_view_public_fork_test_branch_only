@@ -32,6 +32,33 @@
                 "collation": "null"
             },
             "GUID": "c1013c70-092f-11ed-bed6-9584b7d081cf",
+            "bucketId": "c01ca8d0-092f-11ed-bed6-9584b7d081cf",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "New Collection(1)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "46557406-a891-4a3b-87ad-40d5c00eefe3"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "unique": true,
+                "collation": "null"
+            },
+            "GUID": "58e608d3-f4b5-42cb-a9af-e843d7588a18",
             "bucketId": "c01ca8d0-092f-11ed-bed6-9584b7d081cf"
         }
     ],
@@ -41,7 +68,7 @@
             "type": "bucket",
             "collectionIds": [
                 "c1013c70-092f-11ed-bed6-9584b7d081cf",
-                "c1013c70-092f-11ed-bed6-9584b7d081cf"
+                "58e608d3-f4b5-42cb-a9af-e843d7588a18"
             ],
             "backgroundColor": {
                 "r": 187,
@@ -51,7 +78,10 @@
             },
             "show": true,
             "isActivated": true,
-            "GUID": "c01ca8d0-092f-11ed-bed6-9584b7d081cf"
+            "GUID": "c01ca8d0-092f-11ed-bed6-9584b7d081cf",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         }
     ],
     "views": [],
@@ -61,7 +91,8 @@
     "idToNameHashTable": {
         "c01ca8d0-092f-11ed-bed6-9584b7d081cf": "New_Database",
         "c1013c70-092f-11ed-bed6-9584b7d081cf": "New Collection",
-        "c360d750-092f-11ed-bed6-9584b7d081cf": "New Fiel1"
+        "c360d750-092f-11ed-bed6-9584b7d081cf": "New Fiel1",
+        "58e608d3-f4b5-42cb-a9af-e843d7588a18": "New Collection(1)"
     },
     "definitions": {
         "type": "definitions",
@@ -86,45 +117,78 @@
     "creationTS": "2022-07-18T13:21:41.910Z",
     "GUID": "90027b60-069c-11ed-96ab-334f724f7f4d",
     "isLineageEnabled": false,
-    "lastModifTS": "2022-07-22T07:39:06.640Z",
+    "lastModifTS": "2023-09-28T07:20:10.212Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.2.4"
+        "version": "6.11.0"
     },
-    "hackoladeMeta": {},
+    "hackoladeMeta": {
+        "customPropertiesUpdated": true
+    },
     "settings": {
         "centralPane": {
             "dbLevel": {
                 "erd": [
                     {
                         "GUID": "c1013c70-092f-11ed-bed6-9584b7d081cf",
-                        "x": 123,
-                        "y": 203,
+                        "x": 1016,
+                        "y": 1045,
                         "width": 206,
                         "height": 51,
                         "color": {}
+                    },
+                    {
+                        "GUID": "58e608d3-f4b5-42cb-a9af-e843d7588a18",
+                        "x": 1122,
+                        "y": 1116,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
                     }
                 ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
                 "buckets": [
                     {
-                        "x": 107,
-                        "y": 158,
+                        "x": 976,
+                        "y": 1005,
                         "GUID": "c01ca8d0-092f-11ed-bed6-9584b7d081cf"
                     }
                 ],
-                "diagramViews": [],
-                "decorativeSymbols": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
                 "graphView": {
                     "erd": [],
                     "buckets": [],
                     "decorativeSymbols": [],
                     "forceLayout": true,
                     "defaultLinkLength": 300
-                }
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [
+                    {
+                        "GUID": "c1013c70-092f-11ed-bed6-9584b7d081cf",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    }
+                ],
+                "relationshipUpdateDisabled": false
             },
             "collectionLevel": {},
             "changed": false
